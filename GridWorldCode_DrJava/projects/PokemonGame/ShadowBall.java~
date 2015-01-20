@@ -1,0 +1,7 @@
+public class ShadowBall extends Attack{
+  
+  public ShadowBall(){
+    //Name, Type, Accuracy, Strength, SpecialORNot
+    super("ShadowBall", "ghost", 1.0, 80, true);
+  }
+}

@@ -1,0 +1,8 @@
+public class Ratata
+{
+  
+  Move thunderbolt = new Move(1,65,"Gnaw");
+  Move quickAtk = new Move(0,40,"Bite");
+  Move shock = new Move(1,20,"Tackle");
+  
+}

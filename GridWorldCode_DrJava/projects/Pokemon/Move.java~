@@ -1,0 +1,12 @@
+public class Move
+{
+  int type;
+  int power;
+  int phys;
+  public Move(int t, int p, int ph)
+  {
+    type = t;
+    power = p;
+    phys = ph;
+  }
+}

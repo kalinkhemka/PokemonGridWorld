@@ -1,0 +1,7 @@
+Trainer - Up, Down, Right, Left
+Trainer on Path - Up, Down, Right, Left
+Trainer on Green - Up, Down, Right, Left
+Trainer on grass - Up, Down, Right, Left
+Trainer on Cave Stairs - Up, Down, Right, Left
+
+Maybe a Trainer fishing - Right only?

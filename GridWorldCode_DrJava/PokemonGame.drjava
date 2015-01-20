@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20100913-r5387">
+  <project autorefresh="false" build="classes/PokemonGame/" main="projects.PokemonGame.PokemonGame" root="projects/PokemonGame/" work="projects/PokemonGame/">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Trainer.java" package="" timestamp="14-May-2011 00:42:42">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Green.java" package="" timestamp="14-May-2011 00:29:36">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Path.java" package="" timestamp="14-May-2011 00:29:31">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="PokemonTestRunner.java" package="" timestamp="13-May-2011 17:49:02">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="TallGrass.java" package="" timestamp="14-May-2011 00:29:37">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Water.java" package="" timestamp="14-May-2011 00:29:41">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="WaterCorner.java" package="" timestamp="14-May-2011 00:29:35">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="WaterSide.java" package="" timestamp="14-May-2011 00:29:45">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="PokemonGrid.java" package="" timestamp="14-May-2011 00:29:49">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="PokemonGame.java" package="" timestamp="14-May-2011 00:39:03">
+        <select from="96" to="96"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name=""/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

@@ -1,0 +1,3 @@
+public class girl2 extends Rock{
+public girl2(){}
+public void act(){}}

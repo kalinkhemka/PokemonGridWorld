@@ -1,0 +1,8 @@
+public class Geodude
+{
+  
+  Move thunderbolt = new Move(1,35,"Rock Smash");
+  Move quickAtk = new Move(0,60,"Magnitude");
+  Move shock = new Move(1,40,"Tackle");
+  
+}

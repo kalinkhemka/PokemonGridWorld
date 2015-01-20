@@ -1,0 +1,7 @@
+public class LeafStorm extends Attack{
+  
+  public LeafStormlap(){
+    //Name, Type, Accuracy, Strength, SpecialORNot
+    super("LeafStorm", "grass", .90, 140, true);
+  }
+}

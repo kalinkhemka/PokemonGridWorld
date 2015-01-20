@@ -1,0 +1,8 @@
+public class Pidgey
+{
+  
+  Move thunderbolt = new Move(1,95,"Fly");
+  Move quickAtk = new Move(0,40,"Wing Attack");
+  Move shock = new Move(1,40,"Tackle");
+  
+}

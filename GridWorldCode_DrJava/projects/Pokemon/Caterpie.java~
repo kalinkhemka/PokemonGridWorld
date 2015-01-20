@@ -1,0 +1,8 @@
+public class Caterpie
+{
+  
+  Move thunderbolt = new Move(1,55,"Pound");
+  Move quickAtk = new Move(0,20,"String Shot");
+  Move shock = new Move(1,40,"Tackle");
+  
+}

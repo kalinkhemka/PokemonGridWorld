@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20100913-r5387">
+  <project autorefresh="false" build="classes/MultipleBugs/" main="MultipleBugRunner" root="projects/MultipleBugs/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Fire.java" package="" timestamp="11-Apr-2011 11:52:53">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Jumper.java" package="" timestamp="24-Mar-2011 16:47:31">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="BoxBug.java" package="" timestamp="07-Mar-2011 21:50:29">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CircleBug.java" package="" timestamp="10-Mar-2011 09:51:03">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="DancingBug.java" package="" timestamp="10-Mar-2011 09:51:16">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="SpiralBug.java" package="" timestamp="10-Mar-2011 09:54:55">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="ZBug.java" package="" timestamp="10-Mar-2011 09:56:02">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="MultipleBugRunner.java" package="" timestamp="24-Mar-2011 16:29:21">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Dragon.java" package="" timestamp="11-Apr-2011 12:07:26">
+        <select from="829" to="829"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../../gridworld.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

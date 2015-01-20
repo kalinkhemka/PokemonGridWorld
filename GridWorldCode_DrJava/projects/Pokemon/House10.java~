@@ -1,0 +1,3 @@
+public class House10 extends Rock{
+public House10(){}
+public void act(){}}

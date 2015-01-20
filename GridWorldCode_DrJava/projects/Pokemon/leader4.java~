@@ -1,0 +1,3 @@
+public class leader4 extends Rock{
+public leader4(){}
+public void act(){}}

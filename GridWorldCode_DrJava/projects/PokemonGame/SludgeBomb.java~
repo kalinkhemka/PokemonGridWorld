@@ -1,0 +1,7 @@
+public class SludgeBomb extends Attack{
+  
+  public SludgeBomb(){
+    //Name, Type, Accuracy, Strength, SpecialORNot
+    super("SludgeBomb", "poison", 1.00, 90, true);
+  }
+}

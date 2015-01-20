@@ -1,0 +1,53 @@
+import info.gridworld.grid.*;
+import info.gridworld.actor.*;
+
+public class PokemonGame{
+  /*System.out.println("Hi there! Welcome to the world of Pokemon. My name is Professor Araragi.");
+     System.out.println("We live in the world inhabited by creatures known as Pokemon.");
+     System.out.println("They have become our friends and we are always there for each other. And this is why I study Pokemon.");
+     System.out.println();
+     System.out.println("But that's quite enough about me, tell me about yourself.");
+     System.out.println("What is your name?");
+     name = sc.nextLine();*/
+  
+  public static Trainer trainer = new Trainer("name");
+  
+      public static void main(String[] args)
+    {
+  
+  //The code to allow user control of the Trainer
+    java.awt.KeyboardFocusManager.getCurrentKeyboardFocusManager().addKeyEventDispatcher(new java.awt.KeyEventDispatcher(){
+      public boolean dispatchKeyEvent(java.awt.event.KeyEvent event){
+        String key = javax.swing.KeyStroke.getKeyStrokeForEvent(event).toString();
+        if (key.equals( "pressed UP")){
+          trainer.setDirection(0);
+          if (trainer.canMove())
+            trainer.move();
+          trainer.directionSuffix = "up";}
+        if (key.equals("pressed RIGHT")){
+          trainer.setDirection(90);
+          if (trainer.canMove())
+            trainer.move();
+          trainer.directionSuffix = "right";}
+        if (key.equals("pressed DOWN")){
+          trainer.setDirection(180);
+          if (trainer.canMove())
+            trainer.move();
+          trainer.directionSuffix = "down";}
+        if (key.equals("pressed LEFT")){
+          trainer.setDirection(270);
+          if (trainer.canMove())
+            trainer.move();
+          trainer.directionSuffix = "left";} 
+        return true;        
+      }     
+    }
+    );//End of the User Control Code
+
+  PokemonGrid gr = new PokemonGrid();  
+  gr.fillWorld1();
+  ActorWorld world = new ActorWorld((Grid) gr);
+  world.add(new Location(19, 10), trainer);
+  world.show();
+    }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drjava version="drjava-20090630-r4943">
+  <project autorefresh="false" build="classes/critters/" main="CritterRunner" root="projects/critters/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="ChameleonRunner.java" package="" timestamp="16-Apr-2007 06:49:14">
+        <select from="527" to="527"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CritterRunner.java" package="" timestamp="16-Apr-2007 06:49:14">
+        <select from="527" to="527"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CrabRunner.java" package="" timestamp="16-Apr-2007 06:49:14">
+        <select from="527" to="527"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CrabCritter.java" package="" timestamp="16-Apr-2007 06:49:14">
+        <select from="527" to="527"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="ChameleonCritter.java" package="" timestamp="16-Apr-2007 06:49:14">
+        <select from="527" to="527"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../../gridworld.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

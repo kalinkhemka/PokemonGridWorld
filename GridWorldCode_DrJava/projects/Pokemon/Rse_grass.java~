@@ -1,0 +1,4 @@
+import info.gridworld.actor.Rock;
+public class Rse_grass extends Rock{
+public Rse_grass(){}
+public void act(){}}

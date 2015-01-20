@@ -1,0 +1,3 @@
+public class Granite_Cave_5 extends Rock{
+public Granite_Cave_5(){}
+public void act(){}}

@@ -1,0 +1,20 @@
+import info.gridworld.actor.*; 
+
+public class map4
+{
+  public static Actor[][] map= {
+    {new Warp_tile_gen1(),new Warp_tile_gen1(),new Warp_tile_gen1(),new Warp_tile_gen1()},
+    {new Warp_tile_gen1(),new Warp_tile_gen1(),new Warp_tile_gen1(),new Warp_tile_gen1()},
+    {new Warp_tile_gen1(),new Warp_tile_gen1(),new boy1(),new Warp_tile_gen1()},
+    {new Warp_tile_gen1(),new Warp_tile_gen1(),new Warp_tile_gen1(),new Warp_tile_gen1()}
+  };
+
+public map4()
+  {
+    
+  }
+  public Actor[][] getMap()
+  {
+    return map;
+  }
+}

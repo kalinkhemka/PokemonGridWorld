@@ -1,0 +1,37 @@
+public class Attack{
+  
+  private String name, type;
+  private int strength;
+  private double a;
+  
+  public Attack (String n, String t, double a, int s){
+    name = n;
+    accuracy = a;
+    strength = s;
+    type = t;
+  }
+  
+  public String getName (){
+    return name;
+  }
+  
+  public int getAccuray (){
+    return accuracy;
+  }
+  
+  public int getStrength (){
+    return strength;
+  }
+  
+  public String getType (){
+    return type;
+  }
+  
+  public boolean HitMiss (int acc){
+    double prob = acc * accuracy;
+    if (Math.random () <= prob)
+      return true;
+    else
+      return false;
+  }
+}

@@ -1,0 +1,7 @@
+public class RockTomb extends Attack{
+  
+  public RockTomb(){
+    //Name, Type, Accuracy, Strength, SpecialORNot
+    super("RockTomb", "rock", 1.00, 50, false);
+  }
+}

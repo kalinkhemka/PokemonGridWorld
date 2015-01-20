@@ -1,0 +1,15 @@
+import info.gridworld.actor.*; 
+
+public class map2
+{
+  public static Actor[][] map= {};
+}
+public map1()
+  {
+    
+  }
+  public Actor[][] getMap()
+  {
+    return map;
+  }
+}

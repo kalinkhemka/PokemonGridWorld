@@ -1,0 +1,9 @@
+import info.gridworld.actor.*; 
+import info.gridworld.grid.*; 
+import java.awt.Color;
+import java.util.*;
+
+
+public class PokemonTest
+{
+}

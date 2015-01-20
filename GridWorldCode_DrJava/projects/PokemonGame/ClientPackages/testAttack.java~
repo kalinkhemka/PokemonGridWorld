@@ -1,0 +1,25 @@
+/*    */ package ClientPrograms;
+/*    */ 
+/*    */ import Pokemon.Bulbasaur;
+/*    */ import Pokemon.Pokemon;
+/*    */ import Pokemon.PokemonGenerator;
+/*    */ import Pokemon.Tackle;
+/*    */ import java.io.PrintStream;
+/*    */ 
+/*    */ public class testAttack
+/*    */ {
+/*    */   public static void main(String[] args)
+/*    */   {
+/* 12 */     PokemonGenerator gen = new PokemonGenerator(1 + (int)(100.0D * Math.random()));
+/*    */ 
+/* 17 */     for (int i = 0; i < 100; i++)
+/*    */     {
+/* 19 */       System.out.println(gen.gen().fight(new Tackle(), new Bulbasaur(10)));
+/*    */     }
+/*    */   }
+/*    */ }
+
+/* Location:           C:\Users\Owner\Documents\BellarmineDocs\2010-2011\Java\GridWorldCode_DrJava\projects\PokemonGame\PokeBattleInterface.jar
+ * Qualified Name:     ClientPrograms.testAttack
+ * JD-Core Version:    0.6.0
+ */

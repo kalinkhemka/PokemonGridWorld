@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drjava version="drjava-20090630-r4943">
+  <project autorefresh="false" build="classes/firstProject/" main="BugRunner" root="projects/firstProject/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="BugRunner.java" package="" timestamp="16-Apr-2007 06:49:14">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../../gridworld.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+  </project>
+</drjava>

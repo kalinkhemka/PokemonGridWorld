@@ -1,0 +1,20 @@
+import info.gridworld.actor.*; 
+
+public class map5
+{
+  public static Actor[][] map= {
+    {new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave()},
+    {new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave()},
+    {new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave()},
+    {new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave(),new Dp_turnback_cave()}
+  };
+
+public map5()
+  {
+    
+  }
+  public Actor[][] getMap()
+  {
+    return map;
+  }
+}

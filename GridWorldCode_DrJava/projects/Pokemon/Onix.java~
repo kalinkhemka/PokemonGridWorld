@@ -1,0 +1,8 @@
+public class Onix
+{
+  
+  Move thunderbolt = new Move(1,75,"Earthquake");
+  Move quickAtk = new Move(0,50,"Iron Tail");
+  Move shock = new Move(1,30,"Bash");
+  
+}

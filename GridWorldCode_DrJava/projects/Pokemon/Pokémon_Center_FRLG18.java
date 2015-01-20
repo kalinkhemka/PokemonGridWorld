@@ -1,0 +1,4 @@
+import info.gridworld.actor.Rock;
+public class Pokémon_Center_FRLG18 extends Rock{
+public Pokémon_Center_FRLG18(){setColor(null);}
+public void act(){}}

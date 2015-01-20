@@ -1,0 +1,7 @@
+public class HyperBeam extends Attack{
+  
+  public HyperBeam(){
+    //Name, Type, Accuracy, Strength, SpecialORNot
+    super("HyperBeam", "normal", .90, 150, true);
+  }
+}
